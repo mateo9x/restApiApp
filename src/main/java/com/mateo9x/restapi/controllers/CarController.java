@@ -32,14 +32,12 @@ public class CarController {
     @GetMapping("findByBrand/{brand}")
     @ResponseStatus(HttpStatus.OK)
     public List<CarDTO> getCarsByBrand(@PathVariable String brand) {
-
         return carService.getCarsByBrand(brand);
     }
 
     @GetMapping("findByModel/{model}")
     @ResponseStatus(HttpStatus.OK)
     public List<CarDTO> getCarsByModel(@PathVariable String model) {
-
         return carService.getCarsByModel(model);
     }
 
