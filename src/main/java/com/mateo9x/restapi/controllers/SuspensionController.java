@@ -25,7 +25,7 @@ public class SuspensionController {
 
     @GetMapping("{id}")
     @ResponseStatus(HttpStatus.OK)
-    public SuspensionDTO getPhoneById(@PathVariable Long id) {
+    public SuspensionDTO getSuspensionById(@PathVariable Long id) {
         return suspensionService.getSuspensionById(id);
     }
 
@@ -59,7 +59,7 @@ public class SuspensionController {
 
     @DeleteMapping("{id}")
     @ResponseStatus(HttpStatus.OK)
-    public void deletePhoneById(@PathVariable Long id) {
+    public void deleteSuspensionById(@PathVariable Long id) {
         suspensionService.deleteSuspensionById(id);
     }
 

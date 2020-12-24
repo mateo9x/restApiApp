@@ -28,7 +28,7 @@ public class WheelController {
 
     @GetMapping("{id}")
     @ResponseStatus(HttpStatus.OK)
-    public WheelDTO getPhoneById(@PathVariable Long id) {
+    public WheelDTO getWheelById(@PathVariable Long id) {
         return wheelService.getWheelById(id);
     }
 
@@ -55,14 +55,14 @@ public class WheelController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public WheelDTO addNewSuspension(@RequestBody WheelDTO wheelDTO) {
+    public WheelDTO addNewWheel(@RequestBody WheelDTO wheelDTO) {
 
         return wheelService.addNewWheel(wheelDTO);
     }
 
     @PutMapping("{id}")
     @ResponseStatus(HttpStatus.CREATED)
-    public WheelDTO updateSuspension(@PathVariable Long id, @RequestBody WheelDTO wheelDTO) {
+    public WheelDTO updateWheel(@PathVariable Long id, @RequestBody WheelDTO wheelDTO) {
 
             return wheelService.updateWheel(id, wheelDTO);
     }
