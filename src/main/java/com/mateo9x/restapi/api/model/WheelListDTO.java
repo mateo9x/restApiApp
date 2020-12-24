@@ -1,6 +1,6 @@
 package com.mateo9x.restapi.api.model;
 
-import com.mateo9x.restapi.api.PhoneDTO;
+import com.mateo9x.restapi.api.WheelDTO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -8,7 +8,7 @@ import java.util.List;
 
 @Data
 @AllArgsConstructor
-public class PhoneListDTO {
+public class WheelListDTO {
 
-    private List<PhoneDTO> phoneList;
+    private List<WheelDTO> wheelList;
 }
