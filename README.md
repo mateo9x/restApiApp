@@ -9,7 +9,7 @@ This is my project to practice selected element of Java Spring and Angular Frame
 ## 2. Info
 
 Login credentials:  
-user:password
+  > user:password
 
 This app was written to learn connecting rest backend Java with frontend made with Angular Framework. 
 Just download both branches and run them in the same time, then visit: 
