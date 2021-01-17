@@ -1,0 +1,21 @@
+<h3>Update Wheel</h3>
+<div style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="brand">Brand</label>
+      <input type="text" class="form-control" id="brand" required [(ngModel)]="wheel.brand" name="brand">
+    </div>
+
+    <div class="form-group">
+      <label for="size">Size</label>
+      <input type="text" class="form-control" id="size" required [(ngModel)]="wheel.size" name="size">
+    </div>
+
+    <div class="form-group">
+      <label for="width">Width</label>
+      <input type="text" class="form-control" id="width" required [(ngModel)]="wheel.width" name="width">
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>

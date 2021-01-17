@@ -1,0 +1,30 @@
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2>Exhaust List</h2>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th>Brand</th>
+        <th>Type</th>
+        <th>Diameter ["]</th>
+        <th>Actions</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let exhaust of exhausts | async">
+        <td>{{exhaust.brand}}</td>
+        <td>{{exhaust.type}}</td>
+        <td>{{exhaust.diameter}}</td>
+        <td><button (click)="deleteExhaust(exhaust.id)" class="btn btn-danger">Delete</button>
+          <button (click)="exhaustDetails(exhaust.id)" class="btn btn-info" style="margin-left: 10px">Details</button>
+          <button (click)="exhaustUpdate(exhaust.id)" class="btn btn-outline-info" style="margin-left: 10px">Update</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>

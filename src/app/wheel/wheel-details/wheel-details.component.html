@@ -1,0 +1,18 @@
+<h2>Wheel Details</h2>
+
+<hr/>
+<div *ngIf="wheel">
+  <div>
+    <label><b>Brand: </b></label> {{wheel.brand}}
+  </div>
+  <div>
+    <label><b>Size: </b></label> {{wheel.size}}
+  </div>
+  <div>
+    <label><b>Width: </b></label> {{wheel.width}}
+  </div>
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Wheels List</button><br>

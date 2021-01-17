@@ -1,0 +1,21 @@
+<h3>Update Exhaust</h3>
+<div style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="brand">Brand</label>
+      <input type="text" class="form-control" id="brand" required [(ngModel)]="exhaust.brand" name="brand">
+    </div>
+
+    <div class="form-group">
+      <label for="type">Type</label>
+      <input type="text" class="form-control" id="type" required [(ngModel)]="exhaust.type" name="type">
+    </div>
+
+    <div class="form-group">
+      <label for="diameter">Diameter</label>
+      <input type="text" class="form-control" id="diameter" required [(ngModel)]="exhaust.diameter" name="diameter">
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>

@@ -1,0 +1,27 @@
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2>Suspension List</h2>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th>Brand</th>
+        <th>Lowered Measure [mm]</th>
+        <th>Actions</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let suspension of suspensions | async">
+        <td>{{suspension.brand}}</td>
+        <td>{{suspension.loweredMeasure}}</td>
+        <td><button (click)="deleteSuspension(suspension.id)" class="btn btn-danger">Delete</button>
+          <button (click)="suspensionDetails(suspension.id)" class="btn btn-info" style="margin-left: 10px">Details</button>
+          <button (click)="suspensionUpdate(suspension.id)" class="btn btn-outline-info" style="margin-left: 10px">Update</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

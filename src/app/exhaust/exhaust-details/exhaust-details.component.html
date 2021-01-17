@@ -1,0 +1,18 @@
+<h2>Exhaust Details</h2>
+
+<hr/>
+<div *ngIf="exhaust">
+  <div>
+    <label><b>Brand: </b></label> {{exhaust.brand}}
+  </div>
+  <div>
+    <label><b>Type: </b></label> {{exhaust.type}}
+  </div>
+  <div>
+    <label><b>Diameter: </b></label> {{exhaust.diameter}}
+  </div>
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Exhaust List</button><br>

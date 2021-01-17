@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <!-- Links -->
+  <ul class="navbar-nav" style="text-align:center;width:45%;margin:auto">
+    <li class="nav-item">
+      <a routerLink="cars" class="nav-link" routerLinkActive="active">Cars List</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="addCar" class="nav-link" routerLinkActive="active">Add Car</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="exhausts" class="nav-link" routerLinkActive="active">Exhausts List</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="addExhaust" class="nav-link" routerLinkActive="active">Add Exhaust</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="suspensions" class="nav-link" routerLinkActive="active">Suspensions List</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="addSuspension" class="nav-link" routerLinkActive="active">Add Suspension</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="wheels" class="nav-link" routerLinkActive="active">Wheels List</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="addWheel" class="nav-link" routerLinkActive="active">Add Wheel</a>
+    </li>
+  </ul>
+</nav>
+<div class="container">
+  <br>
+  <h2 style="text-align: center;">{{title}}</h2>
+  <hr>
+  <div class="card">
+    <div class="card-body">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+<footer class="footer" style="background-color:#007bff;height:3%">
+  <div class="container">
+    @2021
+  </div>
+</footer>

@@ -1,0 +1,16 @@
+<h2>Suspension Details</h2>
+
+<hr/>
+<div *ngIf="suspension">
+  <div>
+    <label><b>Brand: </b></label> {{suspension.brand}}
+  </div>
+  <div>
+    <label><b>Lowered Measure: </b></label> {{suspension.loweredMeasure}}
+  </div>
+
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Suspension List</button><br>

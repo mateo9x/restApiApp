@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="420b9a5e-0af8-4d2a-87a8-8b75521d613a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1m8tmgwqRto78JoW3G0dZeom8KK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="ts.external.directory.path" value="C:\Users\Mateusz\IdeaProjects\restApiAngularFront\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E2E Tests (restApiAngularFront)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Mateusz\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="420b9a5e-0af8-4d2a-87a8-8b75521d613a" name="Default Changelist" comment="" />
+      <created>1608887207077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608887207077</updated>
+      <workItem from="1608887208113" duration="418000" />
+      <workItem from="1608887659981" duration="1538000" />
+      <workItem from="1608891026635" duration="2150000" />
+      <workItem from="1610285986005" duration="7097000" />
+      <workItem from="1610293929091" duration="12000" />
+      <workItem from="1610296186942" duration="2194000" />
+      <workItem from="1610879266861" duration="331000" />
+      <workItem from="1610879703773" duration="4067000" />
+      <workItem from="1610883849205" duration="330000" />
+      <workItem from="1610884245760" duration="2166000" />
+      <workItem from="1610886537045" duration="918000" />
+      <workItem from="1610887524359" duration="865000" />
+      <workItem from="1610888612292" duration="974000" />
+      <workItem from="1610890011762" duration="534000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Angular commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610290135453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610290135453" />
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1610890565302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610890565302" />
+    <state x="784" y="437" key="Github.CreateGistDialog" timestamp="1610890527004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="784" y="437" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610890527004" />
+    <state x="812" y="415" key="Github.ShareDialog" timestamp="1610890311173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="812" y="415" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610890311173" />
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1610889591550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610889591550" />
+    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1610889591550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610889591550" />
+    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1610889591550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610889591550" />
+    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1610889591550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610889591550" />
+    <state x="461" y="150" key="SettingsEditor" timestamp="1608887759884">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="150" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608887759884" />
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup" timestamp="1608888769239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="235" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608888769239" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1610887890866">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610887890866" />
+    <state x="698" y="418" key="svn.passwordDialog" timestamp="1610890406610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="698" y="418" key="svn.passwordDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610890406610" />
+    <state x="790" y="309" key="svn.repositoryBrowser" timestamp="1610890843681">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="309" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1610890843681" />
+    <state x="711" y="292" key="svn4idea.import.options" timestamp="1610890566882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="292" key="svn4idea.import.options/0.0.1920.1040@0.0.1920.1040" timestamp="1610890566882" />
+  </component>
+</project>
