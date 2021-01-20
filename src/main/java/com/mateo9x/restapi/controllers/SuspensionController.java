@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/suspension/")
+@CrossOrigin(origins = "http://localhost:4200")
 public class SuspensionController {
 
     private final SuspensionService suspensionService;

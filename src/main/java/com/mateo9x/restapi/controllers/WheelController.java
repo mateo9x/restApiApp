@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/wheel/")
+@CrossOrigin(origins = "http://localhost:4200")
 public class WheelController {
 
     private final WheelService wheelService;

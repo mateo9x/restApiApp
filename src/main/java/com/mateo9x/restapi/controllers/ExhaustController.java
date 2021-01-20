@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/exhaust/")
+@CrossOrigin(origins = "http://localhost:4200")
 public class ExhaustController {
 
     private final ExhaustService exhaustService;
